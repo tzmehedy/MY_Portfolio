@@ -11,7 +11,7 @@ h1{
 p{
     text-align: justify;
 }
-section{
+.display_flexiable{
     display: flex;
     margin-bottom: 60px;
 }
@@ -38,4 +38,26 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right:20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#full-stack-web-developer{
+    border-left: 10px solid orange;
+}
+#baby-web-developer{
+    border-left: 10px solid blue;
+}
+footer p{
+    text-align: center;
 }
