@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -7,12 +8,34 @@ h1{
 .color_orange{
     color:orange;
 }
+p{
+    text-align: justify;
+}
 section{
     display: flex;
+    margin-bottom: 60px;
 }
 .half-width{
     width:50%;
+    padding: 5%;
 }
 .half-width img{
     width:80%;
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:White;
+    width: 700;
+    padding:10px 40px;
+    border-radius: 5px;
+}
+.buttom{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
